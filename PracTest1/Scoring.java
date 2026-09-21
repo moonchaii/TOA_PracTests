@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Scoring {
-    static int maxScore = 1;
+    static int maxScore = 0;
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int currentScore = 1;
