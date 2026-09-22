@@ -15,6 +15,7 @@ public class Scoring {
         int T = scanner.nextInt(); // target score
 
         calcScore(0, currentScore, inputs, N, T);
+        scanner.close();
         System.out.println(maxScore);
     }
 

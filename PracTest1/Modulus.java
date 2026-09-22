@@ -16,6 +16,7 @@ public class Modulus {
                 }
             }
         }
+        scanner.close();
         System.out.println(count);
     }
 }
