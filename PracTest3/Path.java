@@ -8,7 +8,7 @@ public class Path {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int n = I   nteger.parseInt(br.readLine().trim());
+        int n = Integer.parseInt(br.readLine().trim());
         int k = Integer.parseInt(br.readLine().trim());
 
         boolean[][] obstacle = new boolean[n+1][n+1];
